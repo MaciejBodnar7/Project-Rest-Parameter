@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.labels-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 8px;
+  margin: 2em;
+  justify-content: center;
+}
+
+p {
+  margin: 8px;
+  font-size: 1.125rem;
+  margin-bottom: 1em;
+}
+
+.label-card {
+  border-radius: 20px;
+  width: 250px;
+  padding: 10px 15px;
+  color: white;
+  background-color: dodgerblue;
+}
+.main-text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.3em;
+}
+
+p:nth-child(3),
+p:nth-child(4) {
+  text-align: end;
+}
+p:nth-child(4) {
+  margin-top: 0;
+}
+p:nth-child(3) {
+  margin-bottom: 0;
+}
+p:first-child {
+  border-bottom: 2px solid white;
+  width: fit-content;
+  padding-bottom: 0.2em;
+}
